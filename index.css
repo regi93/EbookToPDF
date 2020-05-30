@@ -1,0 +1,51 @@
+
+.form.greetings{
+    display : none;
+}
+
+.showing{
+    display : block;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 2s ;
+}
+
+body{
+    background-color: #636e72;
+    font-size: 2em;
+    color : white;
+}
+.js-clock{
+    font-size: 2em;
+    margin-top:20%;
+    text-align: center;
+}
+input{
+    color : white;
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 25%;
+    background-color: transparent;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    padding:20px;
+}
+#question{
+    text-align: center;
+    font-size: 1.5em;
+}
